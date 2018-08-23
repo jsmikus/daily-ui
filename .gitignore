@@ -6,6 +6,7 @@
 ## Ignore Intellij config
 .idea/*
 .idea
+.idea/
 
 # Thumbnails
 ._*
