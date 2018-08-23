@@ -1,0 +1,113 @@
+body {
+    background-color: #eecb11;
+    font-family: 'Marvel', sans-serif;
+}
+
+.container {
+    padding: 35px;
+    width: 351px;
+    margin: 0 auto;
+    background-color: #003366;
+    vertical-align: center;
+    margin-top: 30px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, .25);
+}
+
+.card {
+    background-color: white;
+    color: black;
+}
+
+.payment {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+input {
+    height: 25px;
+    width: 97%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    outline-width: 0;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(238, 203, 17, 1);
+    border: 1px solid rgba(238, 203, 17, 1);
+}
+
+button {
+    background-color: #259225;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: .8;
+    transition: .3s;
+    font-family: "Francois One", sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+button:active {
+    opacity: 1;
+    transform: scale(0.975);
+    transition: .1s;
+}
+
+.items-list {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-family: "Francois One", sans-serif;
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.summary {
+    margin-top: 10px;
+    font-family: "Francois One", sans-serif;
+    border-top: solid 1px white;
+    padding-top: 10px;
+}
+
+.sum {
+    font-weight: bold;
+}
+
+.total {
+    margin-top: 10px;
+    font-family: "Francois One", sans-serif;
+    background: white;
+    padding: 10px;
+    color: #003366;
+}
